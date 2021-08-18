@@ -1,0 +1,88 @@
+body{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+
+    background: url(./media/Prancheta1.png);
+    background-repeat: no-repeat;
+}
+
+.name{
+    position: absolute;
+    width: 865px;
+    height: 64px;
+    left: 540px;
+    top: 259px;
+
+    
+    /* identical to box height */
+    /*border: 1px solid #000000;*/
+}
+
+.main{
+    position: absolute;
+}
+#trabalhos{
+    transition: 300ms;
+    position: absolute;
+    width: 160px;
+    height: 45px;
+    left: 599px;
+    top: 370px;
+    bottom: 510.62px;
+}
+#trabalhos:hover{
+    transition: 200ms;
+    width: 180px;
+    height: 60px;
+    text-shadow: black;
+}
+
+#redes{
+    transition: 300ms;
+    position: absolute;
+    width: 109px;
+    height: 70px;
+    left: 616.83px;
+    top: 497px;
+
+}
+#redes:hover{
+    transition: 200ms;
+    width: 180px;
+    height: 80px;
+    text-shadow: black;
+}
+
+#about{
+    transition: 300ms;
+    position: absolute;
+    width: 83px;
+    height: 35px;
+    left: 801px;
+    top: 597px;
+
+}
+#about:hover{
+    transition: 200ms;
+    width: 180px;
+    height: 60px;
+    text-shadow: black;
+}
+
+
+#contato{
+    transition: 300ms;
+    position: absolute;
+    width: 130px;
+    height: 70px;
+    left: 626px;
+    top: 745px;
+
+}
+#contato:hover{
+    transition: 200ms;
+    width: 180px;
+    height: 60px;
+    text-shadow: black;
+}
